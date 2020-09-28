@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "monolith",
+    "baseName": "ui",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "yeti",
+    "clientThemeVariant": "primary",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "databaseType": "pgsql",
+    "devDatabaseType": "pgsql",
+    "prodDatabaseType": "pgsql",
+    "creationTimestamp": 1601316793012,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "hi", "mr"],
+    "blueprints": [],
+    "reactive": true,
+    "skipServer": true
+  }
+}
