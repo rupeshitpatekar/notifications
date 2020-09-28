@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.invincible.notifications",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "microservice",
+    "baseName": "api",
+    "packageName": "com.invincible.notifications",
+    "packageFolder": "com/invincible/notifications",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Mzk1MTg3ZmI2YTA3ZDU1YzYxYmIzY2ZiYmNmYjZjOTBhNzMxNzQwMDI0OGYxODA2M2ViNmM1NTI4MWExZjNmYWFjZTkyNDY2NTJkMTBhOGIxM2UzYzc4NjNmZDNiN2ZlZDQ3YzZkNWZhZjBiZDc1MjIyMDhlN2JhZDE0NDJmNTU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1601315262918,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "hi", "mr"],
+    "blueprints": [],
+    "reactive": true,
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
