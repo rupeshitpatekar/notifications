@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, com.invincible.notifications.domain.User.class.getName());
             createCache(cm, com.invincible.notifications.domain.Authority.class.getName());
             createCache(cm, com.invincible.notifications.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.invincible.notifications.domain.Customer.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

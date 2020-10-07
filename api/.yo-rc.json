@@ -35,6 +35,7 @@
     "nativeLanguage": "en",
     "languages": ["en", "hi", "mr"],
     "blueprints": [],
-    "skipClient": true
+    "skipClient": true,
+    "lastLiquibaseTimestamp": 1602088035000
   }
 }

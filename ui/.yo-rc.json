@@ -9,14 +9,14 @@
     "useSass": true,
     "clientPackageManager": "npm",
     "clientFramework": "react",
-    "clientTheme": "yeti",
+    "clientTheme": "cerulean",
     "clientThemeVariant": "primary",
     "authenticationType": "jwt",
     "cacheProvider": "no",
     "databaseType": "pgsql",
     "devDatabaseType": "pgsql",
     "prodDatabaseType": "pgsql",
-    "creationTimestamp": 1601316793012,
+    "creationTimestamp": 1602086972134,
     "testFrameworks": [],
     "jhiPrefix": "jhi",
     "entitySuffix": "",
@@ -26,7 +26,6 @@
     "nativeLanguage": "en",
     "languages": ["en", "hi", "mr"],
     "blueprints": [],
-    "reactive": true,
     "skipServer": true
   }
 }
