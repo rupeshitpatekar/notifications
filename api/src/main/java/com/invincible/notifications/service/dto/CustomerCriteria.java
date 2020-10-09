@@ -29,7 +29,7 @@ public class CustomerCriteria implements Serializable, Criteria {
 
     private StringFilter name;
 
-    private IntegerFilter mobile;
+    private StringFilter mobile;
 
     private StringFilter email;
 
@@ -79,11 +79,11 @@ public class CustomerCriteria implements Serializable, Criteria {
         this.name = name;
     }
 
-    public IntegerFilter getMobile() {
+    public StringFilter getMobile() {
         return mobile;
     }
 
-    public void setMobile(IntegerFilter mobile) {
+    public void setMobile(StringFilter mobile) {
         this.mobile = mobile;
     }
 

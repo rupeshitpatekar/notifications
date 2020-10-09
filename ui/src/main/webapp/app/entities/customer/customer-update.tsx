@@ -94,12 +94,12 @@ export const CustomerUpdate = (props: ICustomerUpdateProps) => {
                 </Label>
                 <AvField
                   id="customer-mobile"
-                  type="string"
+                  type="number"
                   className="form-control"
                   name="mobile"
                   validate={{
                     required: { value: true, errorMessage: translate('entity.validation.required') },
-                    number: { value: true, errorMessage: translate('entity.validation.number') },
+                    maxLength: { value: 12, errorMessage: 'Please enter correct mobile number' },
                   }}
                 />
               </AvGroup>
@@ -113,6 +113,7 @@ export const CustomerUpdate = (props: ICustomerUpdateProps) => {
                   name="email"
                   validate={{
                     required: { value: true, errorMessage: translate('entity.validation.required') },
+                    email: true,
                   }}
                 />
               </AvGroup>

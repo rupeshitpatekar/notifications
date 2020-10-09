@@ -6,8 +6,8 @@
       "home": "होम",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
-        "main": "एंटिटीज़",
-        "customer": "Customer",
+        "main": "देखिये",
+        "customer": "ग्राहक",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

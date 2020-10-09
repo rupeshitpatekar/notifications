@@ -49,9 +49,9 @@ public class CustomerResourceIT {
     private static final String DEFAULT_NAME = "AAAAAAAAAA";
     private static final String UPDATED_NAME = "BBBBBBBBBB";
 
-    private static final Integer DEFAULT_MOBILE = 1;
-    private static final Integer UPDATED_MOBILE = 2;
-    private static final Integer SMALLER_MOBILE = 1 - 1;
+    private static final String DEFAULT_MOBILE = "123456789";
+    private static final String UPDATED_MOBILE = "12345678";
+    private static final String SMALLER_MOBILE = "123456789";
 
     private static final String DEFAULT_EMAIL = "AAAAAAAAAA";
     private static final String UPDATED_EMAIL = "BBBBBBBBBB";
@@ -335,7 +335,7 @@ public class CustomerResourceIT {
             .andExpect(jsonPath("$.[*].birthday").value(hasItem(DEFAULT_BIRTHDAY.toString())))
             .andExpect(jsonPath("$.[*].aniversary").value(hasItem(DEFAULT_ANIVERSARY.toString())));
     }
-    
+
     @Test
     @Transactional
     public void getCustomer() throws Exception {

@@ -8,14 +8,14 @@ import java.io.Serializable;
  * A DTO for the {@link com.invincible.notifications.domain.Customer} entity.
  */
 public class CustomerDTO implements Serializable {
-    
+
     private Long id;
 
     @NotNull
     private String name;
 
     @NotNull
-    private Integer mobile;
+    private String mobile;
 
     @NotNull
     private String email;
@@ -33,7 +33,7 @@ public class CustomerDTO implements Serializable {
 
     private LocalDate aniversary;
 
-    
+
     public Long getId() {
         return id;
     }
@@ -50,11 +50,11 @@ public class CustomerDTO implements Serializable {
         this.name = name;
     }
 
-    public Integer getMobile() {
+    public String getMobile() {
         return mobile;
     }
 
-    public void setMobile(Integer mobile) {
+    public void setMobile(String mobile) {
         this.mobile = mobile;
     }
 

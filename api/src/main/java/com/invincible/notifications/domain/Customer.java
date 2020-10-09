@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @Table(name = "customer")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 @org.springframework.data.elasticsearch.annotations.Document(indexName = "customer")
-public class Customer implements Serializable {
+public class Customer extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -32,7 +32,7 @@ public class Customer implements Serializable {
 
     @NotNull
     @Column(name = "mobile", nullable = false)
-    private Integer mobile;
+    private String mobile;
 
     @NotNull
     @Column(name = "email", nullable = false)
@@ -78,16 +78,16 @@ public class Customer implements Serializable {
         this.name = name;
     }
 
-    public Integer getMobile() {
+    public String getMobile() {
         return mobile;
     }
 
-    public Customer mobile(Integer mobile) {
+    public Customer mobile(String mobile) {
         this.mobile = mobile;
         return this;
     }
 
-    public void setMobile(Integer mobile) {
+    public void setMobile(String mobile) {
         this.mobile = mobile;
     }
 

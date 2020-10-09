@@ -99,7 +99,7 @@ public class CustomerQueryService extends QueryService<Customer> {
                 specification = specification.and(buildStringSpecification(criteria.getName(), Customer_.name));
             }
             if (criteria.getMobile() != null) {
-                specification = specification.and(buildRangeSpecification(criteria.getMobile(), Customer_.mobile));
+                specification = specification.and(buildStringSpecification(criteria.getMobile(), Customer_.mobile));
             }
             if (criteria.getEmail() != null) {
                 specification = specification.and(buildStringSpecification(criteria.getEmail(), Customer_.email));
